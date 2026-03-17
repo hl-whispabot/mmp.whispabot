@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17852720289"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'AW-17852720289');
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Platform Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script> window.FontAwesomeConfig = { autoReplaceSvg: 'nest'};</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>::-webkit-scrollbar { display: none;}</style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'china-blue': '#2563eb',
+                        'whatsapp-green': '#25d366',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        
+        const nav = document.getElementById("myTopnav");
+
+        window.myFunction = function (event) {
+            event.stopPropagation();
+            nav.classList.toggle("hidden");
+        };
+
+        document.addEventListener("click", function (event) {
+            const isClickInsideNav = nav.contains(event.target);
+            const isHamburger = event.target.closest("button");
+
+            if (!nav.classList.contains("hidden") && !isClickInsideNav && !isHamburger) {
+            nav.classList.add("hidden");
+            }
+        });
+
+        });
+    </script>
+</head>
+<body class="font-sans antialiased bg-gradient-to-br from-slate-50 to-green-50">
+
+<header id="header" class="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-md border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16 sm:h-20 relative">
+            <div class="flex items-center space-x-3">
+                <!-- Hamburger (mobile only) -->
+                <button class="lg:hidden text-2xl" onclick="myFunction(event)">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!-- Logo -->
+                <a href="index.html"><img src="images/whispabot.png" class="w-32 sm:w-40 lg:w-56"/></a>
+            </div>
+            
+            <nav id="myTopnav" class="absolute top-full mt-2 left-0 bg-white shadow-md hidden flex flex-col items-center space-y-4 py-4 
+                lg:static lg:flex lg:flex-row lg:space-y-0 lg:space-x-8 lg:shadow-none lg:items-center
+                w-full lg:w-auto 
+                ">
+                <a href="index.html" class="text-blue-600 font-semibold border-b-2 border-blue-600 pb-1 transition">Home</a>
+                <a href="platforms.html" class="text-slate-600 hover:text-slate-900 font-medium transition">Platform Explorer</a>
+                <a href="pricing.html" class="text-slate-600 hover:text-slate-900 font-medium transition">Pricing</a>
+            </nav>
+            
+            <div class="flex items-center space-x-2">
+                <a href="https://mmp.whispabot.com" target="_blank"><button class="px-5 py-3 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-xl font-semibold text-sm hover:shadow-2xl transition transform hover:-translate-y-1">
+                <i class="fa-brands fa-whatsapp lg:mr-"></i>
+                <!-- Text: HIDDEN on mobile, visible on desktop -->
+                <span class="hidden lg:inline">
+                    Start WhatsApp
+                </span>
+            </button></a>
+            </div>
+        </div>
+        </div>
+    </div>
+</header>
+
+<section id="hero-whatsapp-details" class="pt-24 sm:pt-32 pb-12 px-4 sm:px-6 lg:px-8 h-[520px] flex items-center bg-gradient-to-br from-green-600 to-green-800">
+    <div class="max-w-7xl mx-auto w-full">
+        <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div>
+                <div class="inline-flex items-center space-x-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full mb-6">
+                    <i class="fa-brands fa-whatsapp text-white"></i>
+                    <span class="text-sm font-medium text-white">Global Messaging Platform</span>
+                </div>
+                
+                <h1 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight mb-6">
+                    WhatsApp Business<br>
+                    Messaging Platform
+                </h1>
+                
+                <p class="text-base sm:text-lg lg:text-xl text-green-100 mb-8 max-w-xl">
+                    Reach 2 billion users worldwide with automated messaging, broadcast campaigns and conversational commerce. Scale your customer communication effortlessly.
+                </p>
+                
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://mmp.whispabot.com" target="_blank"><button class="inline-flex items-center space-x-2 px-6 py-3 bg-white text-green-600 rounded-lg font-semibold hover:shadow-xl transition">
+                        <i class="fa-solid fa-rocket"></i>
+                        <span>Get Started</span>
+                    </button></a>
+                    <a href="contact.html"><button class="inline-flex items-center space-x-2 px-6 py-3 bg-green-500 text-white rounded-lg font-semibold hover:bg-green-400 transition border border-white/20">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Talk to Sales</span>
+                    </button></a>
+                </div>
+            </div>
+            
+            <div class="hidden lg:block">
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-white mb-2">2B+</div>
+                            <div class="text-green-200 text-sm">Global users</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-white mb-2">98%</div>
+                            <div class="text-green-200 text-sm">Open rate</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-white mb-2">180+</div>
+                            <div class="text-green-200 text-sm">Countries</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-white mb-2">24/7</div>
+                            <div class="text-green-200 text-sm">Automation</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="messaging-capabilities" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
+                Messaging <span class="bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent">Capabilities</span>
+            </h2>
+            <p class="text-lg text-slate-600 max-w-3xl mx-auto">
+                Powerful features to engage customers at every stage of their journey
+            </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border-2 border-green-200 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-comments text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Two-Way Conversations</h3>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                    Engage in real-time conversations with customers. Respond to inquiries, provide support and build relationships through natural dialogue.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">Real-time</span>
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">Multimedia</span>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border-2 border-green-200 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-paper-plane text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Session Messages</h3>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                    Free-form messaging within 24-hour customer service windows. No templates required for active conversations.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">24h window</span>
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">Free-form</span>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border-2 border-green-200 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-file-lines text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Template Messages</h3>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                    Send pre-approved template messages for notifications, updates and promotional content.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">Pre-approved</span>
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">Anytime</span>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border-2 border-green-200 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-image text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Rich Media Support</h3>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                    Send images, videos, documents, audio files, location pins and contact cards to enhance your messaging.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">Images</span>
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">Videos</span>
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">Docs</span>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border-2 border-green-200 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-list text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Interactive Messages</h3>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                    Create interactive buttons, lists and quick replies to guide conversations and improve engagement rates.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">Buttons</span>
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">Lists</span>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border-2 border-green-200 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-check-double text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Read Receipts & Status</h3>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                    Track message delivery, read status and customer engagement with detailed delivery receipts and analytics.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">Delivered</span>
+                    <span class="px-2 py-1 bg-green-200 text-green-800 rounded text-xs font-medium">Read</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-gradient-to-br from-slate-900 to-green-900 rounded-2xl p-8 sm:p-10">
+            <div class="grid lg:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white mb-6">Message Types Explained</h3>
+                    <div class="space-y-4">
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                            <div class="flex items-start space-x-3">
+                                <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                    <i class="fa-solid fa-clock text-white text-sm"></i>
+                                </div>
+                                <div>
+                                    <div class="text-white font-semibold mb-1">Opt-In Messages</div>
+                                    <div class="text-green-200 text-sm">Available for 24 hours after customer initiates conversation. No cost from Meta.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                            <div class="flex items-start space-x-3">
+                                <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                    <i class="fa-solid fa-file-invoice-dollar text-white text-sm"></i>
+                                </div>
+                                <div>
+                                    <div class="text-white font-semibold mb-1">Template Messages</div>
+                                    <div class="text-green-200 text-sm">Pre-approved templates for reaching customers. Broadcast templates must be approved by Meta.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20">
+                    <div class="text-center mb-6">
+                        <div class="text-green-300 text-sm font-medium mb-2">Best Practice</div>
+                        <div class="text-2xl font-bold text-white mb-4">Maximize Opt-In Sessions</div>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-start space-x-3">
+                            <i class="fa-solid fa-lightbulb text-green-400 mt-1"></i>
+                            <span class="text-green-100 text-sm">Encourage customers to message you first</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fa-solid fa-lightbulb text-green-400 mt-1"></i>
+                            <span class="text-green-100 text-sm">Use click-to-chat ads and QR codes to initiate customer conversations</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fa-solid fa-lightbulb text-green-400 mt-1"></i>
+                            <span class="text-green-100 text-sm">Keep conversations active within 24h to avoid template message costs</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fa-solid fa-lightbulb text-green-400 mt-1"></i>
+                            <span class="text-green-100 text-sm">Reserve templates for marketing promotions broadcast</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="broadcast-campaigns" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-green-50">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
+                Broadcast & <span class="bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent">Campaign Management</span>
+            </h2>
+            <p class="text-lg text-slate-600 max-w-3xl mx-auto">
+                Send targeted campaigns to thousands of customers with advanced segmentation and scheduling
+            </p>
+        </div>
+        
+        <div class="grid lg:grid-cols-2 gap-8 mb-12">
+            <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-lg">
+                <div class="flex items-center space-x-4 mb-6">
+                    <div class="w-16 h-16 bg-green-600 rounded-xl flex items-center justify-center">
+                        <i class="fa-solid fa-tower-broadcast text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900">Broadcast Messaging</h3>
+                        <p class="text-green-700 font-medium">Reach thousands instantly</p>
+                    </div>
+                </div>
+                <div class="space-y-4 mb-6">
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Bulk Template Sending</div>
+                            <div class="text-slate-600 text-sm">Send pre-approved template messages to unlimited contacts simultaneously</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Audience Segmentation</div>
+                            <div class="text-slate-600 text-sm">Target specific customer groups based on behavior, location, or custom tags</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Personalization Variables</div>
+                            <div class="text-slate-600 text-sm">Insert customer names, order details, and custom fields into templates</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Scheduled Delivery</div>
+                            <div class="text-slate-600 text-sm">Schedule broadcasts for optimal timing across different time zones</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-green-50 rounded-lg p-4 border border-green-200">
+                    <div class="text-sm font-medium text-slate-700 mb-3">Typical Broadcast Performance:</div>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-green-600">98%</div>
+                            <div class="text-xs text-slate-600">Delivery Rate</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-green-600">65%</div>
+                            <div class="text-xs text-slate-600">Open Rate</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-green-600">28%</div>
+                            <div class="text-xs text-slate-600">Click Rate</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-lg">
+                <div class="flex items-center space-x-4 mb-6">
+                    <div class="w-16 h-16 bg-green-600 rounded-xl flex items-center justify-center">
+                        <i class="fa-solid fa-chart-line text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900">Campaign Analytics</h3>
+                        <p class="text-green-700 font-medium">Track every metric</p>
+                    </div>
+                </div>
+                <div class="space-y-4 mb-6">
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Real-Time Delivery Tracking</div>
+                            <div class="text-slate-600 text-sm">Monitor sent, delivered, read, and failed messages in real-time dashboards</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Engagement Metrics</div>
+                            <div class="text-slate-600 text-sm">Track button clicks, link clicks, and conversation starts from broadcasts</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Conversion Attribution</div>
+                            <div class="text-slate-600 text-sm">Link campaign messages to purchases and revenue for clear ROI tracking</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">A/B Testing</div>
+                            <div class="text-slate-600 text-sm">Test different message templates, timings, and audiences for optimization</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-50 rounded-lg p-4 border border-slate-200">
+                    <div class="text-sm font-medium text-slate-700 mb-3">Campaign Types:</div>
+                    <div class="space-y-2">
+                        <div class="flex items-center justify-between px-3 py-2 bg-white rounded border border-slate-200">
+                            <span class="text-sm text-slate-700">Promotional</span>
+                            <span class="text-xs font-medium text-green-600">High conversion</span>
+                        </div>
+                        <div class="flex items-center justify-between px-3 py-2 bg-white rounded border border-slate-200">
+                            <span class="text-sm text-slate-700">Transactional</span>
+                            <span class="text-xs font-medium text-blue-600">Order updates</span>
+                        </div>
+                        <div class="flex items-center justify-between px-3 py-2 bg-white rounded border border-slate-200">
+                            <span class="text-sm text-slate-700">Re-engagement</span>
+                            <span class="text-xs font-medium text-purple-600">Win-back</span>
+                        </div>
+                        <div class="flex items-center justify-between px-3 py-2 bg-white rounded border border-slate-200">
+                            <span class="text-sm text-slate-700">Educational</span>
+                            <span class="text-xs font-medium text-yellow-600">Nurture</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-gradient-to-r from-green-600 to-green-800 rounded-2xl p-8 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h3 class="text-2xl sm:text-3xl font-bold text-white mb-4">Campaign Best Practices</h3>
+                <p class="text-green-100 mb-6">
+                    Get the most out of your WhatsApp campaigns with proven strategies that drive engagement and conversions
+                </p>
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                        <div class="text-3xl mb-2">⏰</div>
+                        <div class="text-white font-semibold mb-1">Optimal Timing</div>
+                        <div class="text-green-100 text-sm">Send during business hours in recipient's timezone</div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                        <div class="text-3xl mb-2">🎯</div>
+                        <div class="text-white font-semibold mb-1">Segment Smartly</div>
+                        <div class="text-green-100 text-sm">Target based on behavior and preferences</div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                        <div class="text-3xl mb-2">💬</div>
+                        <div class="text-white font-semibold mb-1">Keep It Conversational</div>
+                        <div class="text-green-100 text-sm">Write like a human, not a brand</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="automation-features" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
+                Automation & <span class="bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent">AI Capabilities</span>
+            </h2>
+            <p class="text-lg text-slate-600 max-w-3xl mx-auto">
+                Scale your customer communication with intelligent automation and chatbots
+            </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-robot text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">AI Chatbots</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Deploy intelligent chatbots to handle FAQs, qualify leads, and provide instant support 24/7 without human intervention.
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-diagram-project text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Conversation Flows</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Build custom conversation flows with conditional logic, branching, and dynamic responses based on user inputs.
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-bolt text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Quick Replies</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Set up automated quick replies for common questions, reducing response time and improving customer satisfaction.
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-bell text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Auto-Notifications</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Trigger automatic notifications for order confirmations, shipping updates, appointment reminders, and more.
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-filter text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Smart Routing</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Automatically route conversations to the right team member based on inquiry type, language, or customer priority.
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-user-plus text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Lead Qualification</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Automatically qualify leads through conversational forms and route hot prospects to sales teams instantly.
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-calendar-check text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Appointment Booking</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Enable customers to book appointments, consultations, or demos directly through WhatsApp conversations.
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-shopping-cart text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Conversational Commerce</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Allow customers to browse products, add to cart, and complete purchases without leaving WhatsApp.
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-xl transition">
+                <div class="w-14 h-14 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-language text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Multi-Language Support</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Automatically detect customer language and respond in their preferred language with AI translation.
+                </p>
+            </div>
+        </div>
+        
+        <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 sm:p-10 border-2 border-green-200">
+            <div class="grid lg:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">Automation ROI</h3>
+                    <p class="text-slate-700 leading-relaxed mb-6">
+                        Our customers see immediate impact from WhatsApp automation. Reduce support costs while improving customer satisfaction and conversion rates.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="bg-white rounded-lg p-4 border border-green-200">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="text-sm font-medium text-slate-700">Support Cost Reduction</span>
+                                <span class="text-lg font-bold text-green-600">65%</span>
+                            </div>
+                            <div class="w-full bg-green-200 rounded-full h-2">
+                                <div class="bg-green-600 h-2 rounded-full" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 border border-green-200">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="text-sm font-medium text-slate-700">Response Time Improvement</span>
+                                <span class="text-lg font-bold text-green-600">90%</span>
+                            </div>
+                            <div class="w-full bg-green-200 rounded-full h-2">
+                                <div class="bg-green-600 h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 border border-green-200">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="text-sm font-medium text-slate-700">Lead Conversion Increase</span>
+                                <span class="text-lg font-bold text-green-600">45%</span>
+                            </div>
+                            <div class="w-full bg-green-200 rounded-full h-2">
+                                <div class="bg-green-600 h-2 rounded-full" style="width: 45%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl p-6 border border-green-200 shadow-lg">
+                    <div class="text-center mb-6">
+                        <div class="text-green-700 text-sm font-medium mb-2">Automation Use Cases</div>
+                        <div class="text-2xl font-bold text-slate-900 mb-4">What You Can Automate</div>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-center space-x-3 p-3 bg-green-50 rounded-lg border border-green-200">
+                            <i class="fa-solid fa-headset text-green-600 text-xl"></i>
+                            <span class="text-slate-700 font-medium">Customer Support FAQs</span>
+                        </div>
+                        <div class="flex items-center space-x-3 p-3 bg-green-50 rounded-lg border border-green-200">
+                            <i class="fa-solid fa-box text-green-600 text-xl"></i>
+                            <span class="text-slate-700 font-medium">Order Status & Tracking</span>
+                        </div>
+                        <div class="flex items-center space-x-3 p-3 bg-green-50 rounded-lg border border-green-200">
+                            <i class="fa-solid fa-calendar text-green-600 text-xl"></i>
+                            <span class="text-slate-700 font-medium">Appointment Scheduling</span>
+                        </div>
+                        <div class="flex items-center space-x-3 p-3 bg-green-50 rounded-lg border border-green-200">
+                            <i class="fa-solid fa-user-check text-green-600 text-xl"></i>
+                            <span class="text-slate-700 font-medium">Lead Capture & Qualification</span>
+                        </div>
+                        <div class="flex items-center space-x-3 p-3 bg-green-50 rounded-lg border border-green-200">
+                            <i class="fa-solid fa-receipt text-green-600 text-xl"></i>
+                            <span class="text-slate-700 font-medium">Payment Reminders</span>
+                        </div>
+                        <div class="flex items-center space-x-3 p-3 bg-green-50 rounded-lg border border-green-200">
+                            <i class="fa-solid fa-star text-green-600 text-xl"></i>
+                            <span class="text-slate-700 font-medium">Feedback Collection</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="conversation-management" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-green-50">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
+                Conversation <span class="bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent">Management</span>
+            </h2>
+            <p class="text-lg text-slate-600 max-w-3xl mx-auto">
+                Powerful tools to manage customer conversations at scale with team collaboration
+            </p>
+        </div>
+        
+        <div class="grid lg:grid-cols-2 gap-8 mb-12">
+            <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-lg">
+                <div class="flex items-center space-x-4 mb-6">
+                    <div class="w-16 h-16 bg-green-600 rounded-xl flex items-center justify-center">
+                        <i class="fa-solid fa-inbox text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900">Unified Inbox</h3>
+                        <p class="text-green-700 font-medium">All conversations in one place</p>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Multi-Channel View</div>
+                            <div class="text-slate-600 text-sm">See all WhatsApp conversations across multiple phone numbers in one dashboard</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Smart Filtering</div>
+                            <div class="text-slate-600 text-sm">Filter by unread, assigned, starred, tags, or custom criteria for easy prioritization</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Conversation History</div>
+                            <div class="text-slate-600 text-sm">Access complete conversation history with search and export capabilities</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Quick Actions</div>
+                            <div class="text-slate-600 text-sm">Archive, delete, tag, or assign conversations with keyboard shortcuts</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-lg">
+                <div class="flex items-center space-x-4 mb-6">
+                    <div class="w-16 h-16 bg-green-600 rounded-xl flex items-center justify-center">
+                        <i class="fa-solid fa-users text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900">Team Collaboration</h3>
+                        <p class="text-green-700 font-medium">Work together seamlessly</p>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Conversation Assignment</div>
+                            <div class="text-slate-600 text-sm">Assign conversations to specific team members or departments automatically</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Internal Notes</div>
+                            <div class="text-slate-600 text-sm">Add private notes to conversations visible only to your team, not customers</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Role-Based Permissions</div>
+                            <div class="text-slate-600 text-sm">Control who can view, reply, or manage conversations with granular permissions</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fa-solid fa-check text-green-600 text-xs"></i>
+                        </div>
+                        <div>
+                            <div class="text-slate-900 font-semibold mb-1">Team Performance</div>
+                            <div class="text-slate-600 text-sm">Track response times, resolution rates, and individual team member metrics</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl p-8 sm:p-10 border border-slate-200 shadow-lg">
+            <h3 class="text-2xl font-bold text-slate-900 mb-6 text-center">Advanced Management Features</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fa-solid fa-tags text-green-600 text-2xl"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2">Smart Tagging</h4>
+                    <p class="text-slate-600 text-sm">Automatically tag conversations by topic, sentiment, or custom rules</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fa-solid fa-search text-green-600 text-2xl"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2">Powerful Search</h4>
+                    <p class="text-slate-600 text-sm">Search across all conversations by keyword, date, customer, or metadata</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fa-solid fa-file-export text-green-600 text-2xl"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2">Data Export</h4>
+                    <p class="text-slate-600 text-sm">Export conversation data, transcripts, and analytics for compliance or analysis</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fa-solid fa-clock-rotate-left text-green-600 text-2xl"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2">Audit Logs</h4>
+                    <p class="text-slate-600 text-sm">Complete audit trail of all actions and changes for security and compliance</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="faq-whatsapp" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
+                Frequently Asked <span class="bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent">Questions</span>
+            </h2>
+            <p class="text-lg text-slate-600">
+                Everything you need to know about WhatsApp Business messaging
+            </p>
+        </div>
+        
+        <div class="space-y-4">
+            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border-2 border-green-200 hover:shadow-lg transition">
+                <div class="flex items-start justify-between cursor-pointer">
+                    <div class="flex-1">
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">What's the difference between WhatsApp Business and WhatsApp Business API?</h3>
+                        <p class="text-slate-600">WhatsApp Business app is for small businesses with one device. WhatsApp Business API (what we provide) is for medium-large businesses, allowing multiple team members, automation, integrations, and higher message volumes.</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-down text-slate-400 ml-4 mt-1"></i>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-lg transition">
+                <div class="flex items-start justify-between cursor-pointer">
+                    <div class="flex-1">
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">How do I get a WhatsApp Business number?</h3>
+                        <p class="text-slate-600">We help you set up your WhatsApp Business number. You need a phone number dedicated to WhatsApp (can't be used with regular WhatsApp), business verification documents, and Facebook Business Manager account.</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-down text-slate-400 ml-4 mt-1"></i>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-lg transition">
+                <div class="flex items-start justify-between cursor-pointer">
+                    <div class="flex-1">
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">What are opt-in messages vs template messages?</h3>
+                        <p class="text-slate-600">Opt-in messages are free and can be sent within 24 hours of a customer messaging you. Template messages are pre-approved messages you can send anytime (charged per message) for notifications, marketing and re-engagement.</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-down text-slate-400 ml-4 mt-1"></i>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-lg transition">
+                <div class="flex items-start justify-between cursor-pointer">
+                    <div class="flex-1">
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Can I send promotional messages on WhatsApp?</h3>
+                        <p class="text-slate-600">Yes, but only to customers who have opted in and using pre-approved marketing templates. You cannot send unsolicited promotional messages.</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-down text-slate-400 ml-4 mt-1"></i>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-lg transition">
+                <div class="flex items-start justify-between cursor-pointer">
+                    <div class="flex-1">
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">How long does it take to get started?</h3>
+                        <p class="text-slate-600">Setup typically takes 3-5 business days including business verification, number approval and platform configuration. Once approved, you can start messaging immediately.</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-down text-slate-400 ml-4 mt-1"></i>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-lg transition">
+                <div class="flex items-start justify-between cursor-pointer">
+                    <div class="flex-1">
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Can I use my existing WhatsApp number?</h3>
+                        <p class="text-slate-600">No, you need a new dedicated phone number for WhatsApp Business API. The number cannot be registered with regular WhatsApp or WhatsApp Business app.</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-down text-slate-400 ml-4 mt-1"></i>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl p-6 border border-slate-200 hover:border-green-300 hover:shadow-lg transition">
+                <div class="flex items-start justify-between cursor-pointer">
+                    <div class="flex-1">
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Is there a message volume limit?</h3>
+                        <p class="text-slate-600">Meta assigns messaging limits based on your phone number quality rating and business verification tier. Start at 1,000 conversations/day and can scale to unlimited with good practices. We help you scale responsibly.</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-down text-slate-400 ml-4 mt-1"></i>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<div class="h-24"></div>
+
+<footer id="footer" class="bg-slate-900 text-slate-400 py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
+            <div class="col-span-2 md:col-span-1">
+                <div class="flex items-center space-x-2 mb-4">
+                    <a href="index.html"><img src="images/whispabot_white.png" width="250px" /></a>
+                </div>
+                <p class="text-sm leading-relaxed">
+                    Flexible messaging platforms for businesses targeting China and global markets.
+                </p>
+            </div>
+            
+            <div>
+                <h4 class="text-white font-semibold mb-4">Platforms</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="chinese.html" class="hover:text-white transition">China Platform</a></li>
+                    <li><a href="whatsapp.html" class="hover:text-white transition">WhatsApp Platform</a></li>
+                    <li><a href="pricing.html" class="hover:text-white transition">Pricing</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="text-white font-semibold mb-4">Company</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="about.html" class="hover:text-white transition">About Us</a></li>
+                    <li><a href="contact.html" class="hover:text-white transition">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="text-white font-semibold mb-4">Legal</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="privacy.html" class="hover:text-white transition">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="hover:text-white transition">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-slate-800 pt-8 flex flex-col sm:flex-row justify-between items-center">
+            <p class="text-sm mb-4 sm:mb-0">© 2026 whispabot. All rights reserved.</p>
+            <div class="flex space-x-6">
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
