@@ -175,14 +175,14 @@
                             <label class="block text-sm font-semibold text-slate-900 mb-2">
                                 First Name <span class="text-red-500">*</span>
                             </label>
-                            <input type="text" required class="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none transition" placeholder="John">
+                            <input name="first_name" type="text" required class="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none transition" placeholder="John">
                         </div>
                         
                         <div>
                             <label class="block text-sm font-semibold text-slate-900 mb-2">
                                 Last Name <span class="text-red-500">*</span>
                             </label>
-                            <input type="text" required class="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none transition" placeholder="Smith">
+                            <input name="last_name" type="text" required class="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none transition" placeholder="Smith">
                         </div>
                     </div>
                     
@@ -190,21 +190,21 @@
                         <label class="block text-sm font-semibold text-slate-900 mb-2">
                             Work Email <span class="text-red-500">*</span>
                         </label>
-                        <input type="email" required class="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none transition" placeholder="john.smith@company.com">
+                        <input name="email" type="email" required class="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none transition" placeholder="john.smith@company.com">
                     </div>
                     
                     <div>
                         <label class="block text-sm font-semibold text-slate-900 mb-2">
                             Company Name <span class="text-red-500">*</span>
                         </label>
-                        <input type="text" required class="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none transition" placeholder="Your Company Inc.">
+                        <input name="company" type="text" required class="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none transition" placeholder="Your Company Inc.">
                     </div>
                     
                     <div>
                         <label class="block text-sm font-semibold text-slate-900 mb-2">
                             Phone Number
                         </label>
-                        <input type="tel" class="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none transition" placeholder="+6012-123-4567">
+                        <input name="phone" type="tel" class="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none transition" placeholder="+6012-123-4567">
                     </div>
                     
                     <div>
@@ -213,15 +213,15 @@
                         </label>
                         <div class="space-y-3">
                             <label class="flex items-center space-x-3 cursor-pointer">
-                                <input type="checkbox" class="w-5 h-5 text-blue-600 border-slate-300 rounded focus:ring-blue-500">
+                                <input name="china_platform" type="checkbox" class="w-5 h-5 text-blue-600 border-slate-300 rounded focus:ring-blue-500">
                                 <span class="text-slate-700">China Platform (XHS + WeChat)</span>
                             </label>
                             <label class="flex items-center space-x-3 cursor-pointer">
-                                <input type="checkbox" class="w-5 h-5 text-green-600 border-slate-300 rounded focus:ring-green-500">
+                                <input name="whatsapp_platform" type="checkbox" class="w-5 h-5 text-green-600 border-slate-300 rounded focus:ring-green-500">
                                 <span class="text-slate-700">WhatsApp Platform</span>
                             </label>
                             <label class="flex items-center space-x-3 cursor-pointer">
-                                <input type="checkbox" class="w-5 h-5 text-purple-600 border-slate-300 rounded focus:ring-purple-500">
+                                <input name="both_platforms" type="checkbox" class="w-5 h-5 text-purple-600 border-slate-300 rounded focus:ring-purple-500">
                                 <span class="text-slate-700">Both Platforms</span>
                             </label>
                         </div>
@@ -231,12 +231,12 @@
                         <label class="block text-sm font-semibold text-slate-900 mb-2">
                             Message
                         </label>
-                        <textarea rows="4" class="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none transition resize-none" placeholder="Tell us about your goals and what you'd like to achieve..."></textarea>
+                        <textarea name="message" rows="4" class="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none transition resize-none" placeholder="Tell us about your goals and what you'd like to achieve..."></textarea>
                     </div>
                     
                     <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
                         <label class="flex items-start space-x-3 cursor-pointer">
-                            <input type="checkbox" required class="w-5 h-5 text-blue-600 border-slate-300 rounded focus:ring-blue-500 mt-0.5">
+                            <input name="agreement" type="checkbox" required class="w-5 h-5 text-blue-600 border-slate-300 rounded focus:ring-blue-500 mt-0.5">
                             <span class="text-sm text-slate-700">
                                 I agree to receive communications and marketing messages from Whispabot.<span class="text-red-500">*</span>
                             </span>
