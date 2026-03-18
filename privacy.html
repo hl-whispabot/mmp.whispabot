@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17852720289"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'AW-17852720289');
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script> window.FontAwesomeConfig = { autoReplaceSvg: 'nest'};</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>::-webkit-scrollbar { display: none;}</style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'china-blue': '#2563eb',
+                        'whatsapp-green': '#25d366',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        
+        const nav = document.getElementById("myTopnav");
+
+        window.myFunction = function (event) {
+            event.stopPropagation();
+            nav.classList.toggle("hidden");
+        };
+
+        document.addEventListener("click", function (event) {
+            const isClickInsideNav = nav.contains(event.target);
+            const isHamburger = event.target.closest("button");
+
+            if (!nav.classList.contains("hidden") && !isClickInsideNav && !isHamburger) {
+            nav.classList.add("hidden");
+            }
+        });
+
+        });
+    </script>
+</head>
+<body class="font-sans antialiased bg-gradient-to-br from-slate-50 to-blue-50">
+
+<header id="header" class="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-md border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16 sm:h-20 relative">
+            <div class="flex items-center space-x-3">
+                <!-- Hamburger (mobile only) -->
+                <button class="lg:hidden text-2xl" onclick="myFunction(event)">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!-- Logo -->
+                <a href="index.html"><img src="images/whispabot.png" class="w-32 sm:w-40 lg:w-56"/></a>
+            </div>
+            
+            <nav id="myTopnav" class="absolute top-full mt-2 left-0 bg-white shadow-md hidden flex flex-col items-center space-y-4 py-4 
+                lg:static lg:flex lg:flex-row lg:space-y-0 lg:space-x-8 lg:shadow-none lg:items-center
+                w-full lg:w-auto 
+                ">
+                <a href="index.html" class="text-slate-600 hover:text-slate-900 font-medium transition">Home</a>
+                <a href="platforms.html" class="text-slate-600 hover:text-slate-900 font-medium transition">Platforms</a>
+                <a href="pricing.html" class="text-slate-600 hover:text-slate-900 font-medium transition">Pricing</a>
+                <a href="about.html" class="text-slate-600 hover:text-slate-900 font-medium transition">About</a>
+                <a href="contact.html" class="text-slate-600 hover:text-slate-900 font-medium transition">Contact</a>
+            </nav>
+            
+            <div class="flex items-center space-x-2">
+                <a href="https://mmp.whispabot.com" target="_blank"><button class="px-5 py-3 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-xl font-semibold text-sm hover:shadow-2xl transition transform hover:-translate-y-1">
+                <i class="fa-brands fa-whatsapp lg:mr-"></i>
+                <!-- Text: HIDDEN on mobile, visible on desktop -->
+                <span class="hidden lg:inline">
+                    Start WhatsApp
+                </span>
+            </button></a>
+            </div>
+        </div>
+        </div>
+    </div>
+</header>
+
+<section id="privacy-hero" class="relative pt-24 sm:pt-32 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8 h-[500px] flex items-center">
+    <div class="max-w-7xl mx-auto w-full text-center">
+        <div class="inline-flex items-center space-x-2 px-4 py-2 bg-slate-200 rounded-full mb-6">
+            <i class="fa-solid fa-shield-halved text-slate-700 text-sm"></i>
+            <span class="text-sm font-medium text-slate-700">Legal Document</span>
+        </div>
+        
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-900 leading-tight mb-6 max-w-4xl mx-auto">
+            Privacy Policy
+        </h1>
+        
+        <p class="text-base sm:text-lg lg:text-xl text-slate-600 mb-6 max-w-3xl mx-auto">
+            Your privacy and data security are our top priorities. This policy explains how we collect, use, and protect your information.
+        </p>
+        
+        <div class="flex items-center justify-center space-x-2 text-sm text-slate-500">
+            <i class="fa-regular fa-calendar"></i>
+            <span>Last Updated: 1st March 2026</span>
+        </div>
+    </div>
+</section>
+
+<section id="privacy-content" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-4xl mx-auto">
+        
+        <div id="section-overview" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-eye text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Overview</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <p class="text-slate-700 leading-relaxed mb-4">
+                    Whispabot ("we," "our," or "us") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy describes how we collect, use, disclose, and safeguard your information when you use our messaging platforms and services.
+                </p>
+                <p class="text-slate-700 leading-relaxed mb-4">
+                    By accessing or using our services, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not use our services.
+                </p>
+                <div class="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg my-6">
+                    <div class="flex items-start space-x-3">
+                        <i class="fa-solid fa-info-circle text-blue-600 text-xl mt-1"></i>
+                        <div>
+                            <h4 class="font-semibold text-slate-900 mb-2">Important Note</h4>
+                            <p class="text-sm text-slate-700">This Privacy Policy applies to both our China Platform and WhatsApp Platform services. Specific platform requirements may apply additional data processing obligations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-information-collection" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-database text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Information We Collect</h2>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="bg-slate-50 rounded-xl p-6">
+                    <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                        <i class="fa-solid fa-user-circle text-blue-600 mr-2"></i>
+                        Personal Information
+                    </h3>
+                    <p class="text-slate-700 leading-relaxed mb-3">
+                        When you register for an account or use our services, we may collect:
+                    </p>
+                    <ul class="space-y-2 text-slate-700">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Name, email address, phone number and company information</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Billing and payment information (processed securely through third-party providers)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Profile information and preferences</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Communication preferences and settings</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl p-6">
+                    <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                        <i class="fa-solid fa-chart-line text-purple-600 mr-2"></i>
+                        Usage and Analytics Data
+                    </h3>
+                    <p class="text-slate-700 leading-relaxed mb-3">
+                        We automatically collect certain information when you use our platforms:
+                    </p>
+                    <ul class="space-y-2 text-slate-700">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Device information (IP address, browser type, operating system)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Usage patterns and feature interactions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Message delivery metrics and engagement statistics</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Performance data and error logs</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl p-6">
+                    <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                        <i class="fa-solid fa-comments text-orange-600 mr-2"></i>
+                        Message and Content Data
+                    </h3>
+                    <p class="text-slate-700 leading-relaxed mb-3">
+                        To provide our messaging services, we process:
+                    </p>
+                    <ul class="space-y-2 text-slate-700">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Message content, templates and attachments you send through our platforms</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Contact information for message recipients</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Campaign and automation configurations</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Customer interaction histories and conversation logs</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-data-usage" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-purple-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-cogs text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">How We Use Your Information</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <p class="text-slate-700 leading-relaxed mb-6">
+                    We use the collected information for various purposes to provide, maintain and improve our services:
+                </p>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-server text-blue-600 mr-2"></i>
+                            Service Delivery
+                        </h4>
+                        <ul class="space-y-2 text-sm text-slate-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Process and deliver messages through our platforms</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Manage your account and subscriptions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Provide customer support and respond to inquiries</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-wrench text-green-600 mr-2"></i>
+                            Platform Improvement
+                        </h4>
+                        <ul class="space-y-2 text-sm text-slate-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-green-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Analyze usage patterns to enhance features</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-green-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Develop new functionalities and services</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-green-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Monitor and improve platform performance</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-shield-alt text-purple-600 mr-2"></i>
+                            Security & Compliance
+                        </h4>
+                        <ul class="space-y-2 text-sm text-slate-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-purple-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Detect and prevent fraud and abuse</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-purple-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Comply with legal obligations and regulations</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-purple-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Protect user data and platform integrity</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-6 border border-orange-200">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-bullhorn text-orange-600 mr-2"></i>
+                            Communication
+                        </h4>
+                        <ul class="space-y-2 text-sm text-slate-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-orange-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Send service updates and notifications</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-orange-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Provide relevant product information (with consent)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-orange-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Respond to feedback and requests</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-data-sharing" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-orange-600 to-orange-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-share-nodes text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Data Sharing and Disclosure</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <p class="text-slate-700 leading-relaxed mb-6">
+                    We do not sell your personal information. We may share your information only in the following circumstances:
+                </p>
+                
+                <div class="space-y-4">
+                    <div class="border-l-4 border-blue-600 bg-slate-50 p-6 rounded-r-xl">
+                        <h4 class="font-bold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-handshake text-blue-600 mr-2"></i>
+                            Service Providers
+                        </h4>
+                        <p class="text-slate-700 text-sm leading-relaxed">
+                            We work with trusted third-party service providers who assist in operating our platforms, including cloud hosting, payment processing, analytics and customer support. These providers are contractually obligated to protect your data and use it only for specified purposes.
+                        </p>
+                    </div>
+
+                    <div class="border-l-4 border-green-600 bg-slate-50 p-6 rounded-r-xl">
+                        <h4 class="font-bold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-building text-green-600 mr-2"></i>
+                            Platform Partners
+                        </h4>
+                        <p class="text-slate-700 text-sm leading-relaxed">
+                            When you use our WeCom or WhatsApp integration services, certain data is shared with these platforms in accordance with their respective terms and privacy policies. This is necessary to deliver messages and provide platform-specific features.
+                        </p>
+                    </div>
+
+                    <div class="border-l-4 border-purple-600 bg-slate-50 p-6 rounded-r-xl">
+                        <h4 class="font-bold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-scale-balanced text-purple-600 mr-2"></i>
+                            Legal Requirements
+                        </h4>
+                        <p class="text-slate-700 text-sm leading-relaxed">
+                            We may disclose your information if required by law, court order, or government regulation, or if we believe disclosure is necessary to protect our rights, your safety, or the safety of others, investigate fraud, or respond to legal requests.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-data-security" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-lock text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Data Security</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <p class="text-slate-700 leading-relaxed mb-6">
+                    We implement industry-standard security measures to protect your information from unauthorized access, disclosure, alteration, or destruction:
+                </p>
+                
+                <div class="grid md:grid-cols-3 gap-6 mb-6">
+                    <div class="text-center p-6 bg-slate-50 rounded-xl border border-slate-200">
+                        <div class="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fa-solid fa-shield text-white text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 mb-2">Encryption</h4>
+                        <p class="text-sm text-slate-600">Data encrypted in transit using TLS/SSL and at rest using AES-256</p>
+                    </div>
+
+                    <div class="text-center p-6 bg-slate-50 rounded-xl border border-slate-200">
+                        <div class="w-16 h-16 bg-gradient-to-br from-green-600 to-green-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fa-solid fa-user-lock text-white text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 mb-2">Access Control</h4>
+                        <p class="text-sm text-slate-600">Strict access controls and authentication protocols for all systems</p>
+                    </div>
+
+                    <div class="text-center p-6 bg-slate-50 rounded-xl border border-slate-200">
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-600 to-purple-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fa-solid fa-search text-white text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 mb-2">Monitoring</h4>
+                        <p class="text-sm text-slate-600">24/7 security monitoring and regular vulnerability assessments</p>
+                    </div>
+                </div>
+
+                <div class="bg-yellow-50 border-l-4 border-yellow-600 p-6 rounded-r-lg">
+                    <div class="flex items-start space-x-3">
+                        <i class="fa-solid fa-exclamation-triangle text-yellow-600 text-xl mt-1"></i>
+                        <div>
+                            <h4 class="font-semibold text-slate-900 mb-2">Important Security Notice</h4>
+                            <p class="text-sm text-slate-700">While we implement robust security measures, no method of electronic transmission or storage is 100% secure. We cannot guarantee absolute security but continuously work to protect your data using industry best practices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-cookies" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-amber-600 to-amber-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-cookie-bite text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Cookies and Tracking Technologies</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <p class="text-slate-700 leading-relaxed mb-6">
+                    We use cookies and similar tracking technologies to enhance your experience, analyze usage and improve our services.
+                </p>
+                
+                <div class="space-y-4 mb-6">
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-circle-check text-green-600 mr-2"></i>
+                            Essential Cookies
+                        </h4>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-2">
+                            Required for basic platform functionality, authentication, and security. These cannot be disabled.
+                        </p>
+                        <div class="text-xs text-slate-500">Examples: Session management, login authentication, security tokens</div>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-chart-bar text-blue-600 mr-2"></i>
+                            Analytics Cookies
+                        </h4>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-2">
+                            Help us understand how users interact with our platform to improve functionality and user experience.
+                        </p>
+                        <div class="text-xs text-slate-500">Examples: Google Analytics, usage patterns, feature adoption metrics</div>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-sliders text-purple-600 mr-2"></i>
+                            Preference Cookies
+                        </h4>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-2">
+                            Remember your settings and preferences for a personalized experience across sessions.
+                        </p>
+                        <div class="text-xs text-slate-500">Examples: Language preferences, display settings, notification preferences</div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-100 rounded-xl p-6">
+                    <h4 class="font-bold text-slate-900 mb-3">Managing Cookies</h4>
+                    <p class="text-slate-700 text-sm mb-3">
+                        You can control cookie settings through your browser preferences. However, disabling certain cookies may impact platform functionality.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-data-retention" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-indigo-600 to-indigo-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-clock-rotate-left text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Data Retention</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <p class="text-slate-700 leading-relaxed mb-6">
+                    We retain your personal information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required by law.
+                </p>
+                
+                <div class="bg-gradient-to-br from-slate-50 to-blue-50 rounded-xl p-6 border border-slate-200">
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-2 flex items-center">
+                                <i class="fa-solid fa-user text-blue-600 mr-2"></i>
+                                Account Data
+                            </h4>
+                            <p class="text-sm text-slate-600">Retained while your account is active plus 90 days after closure</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-2 flex items-center">
+                                <i class="fa-solid fa-message text-green-600 mr-2"></i>
+                                Message Data
+                            </h4>
+                            <p class="text-sm text-slate-600">Stored for 12 months for service delivery and compliance</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-2 flex items-center">
+                                <i class="fa-solid fa-chart-line text-purple-600 mr-2"></i>
+                                Analytics Data
+                            </h4>
+                            <p class="text-sm text-slate-600">Aggregated data retained for 24 months for platform improvement</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-contact" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-rose-600 to-rose-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-envelope text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Contact Us</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <p class="text-slate-700 leading-relaxed mb-6">
+                    If you have questions, concerns or requests regarding this Privacy Policy or our data practices, please contact us:
+                </p>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
+                        <h4 class="font-bold text-slate-900 mb-4 flex items-center">
+                            <i class="fa-solid fa-shield-halved text-blue-600 mr-2"></i>
+                            Data Protection Support
+                        </h4>
+                        <div class="space-y-3 text-sm">
+                            <div class="flex items-center space-x-2">
+                                <i class="fa-solid fa-envelope text-blue-600"></i>
+                                <span class="text-slate-700">support@whispabot.com</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fa-solid fa-location-dot text-blue-600"></i>
+                                <span class="text-slate-700">22-1, Jalan Metro Perdana Barat 2, <br/>
+                                    Taman Usahawan Kepong, Kuala Lumpur, Malaysia
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-updates" class="mb-8">
+            <div class="bg-gradient-to-r from-slate-900 to-blue-900 rounded-2xl p-8 text-white">
+                <div class="flex items-start space-x-4">
+                    <i class="fa-solid fa-bell text-yellow-400 text-2xl mt-1"></i>
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">Policy Updates</h3>
+                        <p class="text-slate-200 mb-4 leading-relaxed">
+                            We may update this Privacy Policy periodically to reflect changes in our practices, technology, legal requirements, or other factors. 
+                            We will notify via a notice on our platform.
+                        </p>
+                        <p class="text-slate-300 text-sm">
+                            Your continued use of our services after changes become effective constitutes acceptance of the updated Privacy Policy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="privacy-cta" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 to-blue-900">
+    <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
+            Questions About Your Privacy?
+        </h2>
+        <p class="text-lg sm:text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
+            Our team is here to help you understand how we protect your data and answer any privacy-related questions.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="contact.html" class="px-10 py-5 bg-gradient-to-r from-blue-600 to-green-500 text-white rounded-xl font-semibold text-lg hover:shadow-2xl transition transform hover:-translate-y-1">
+                Contact Privacy Team
+                <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+            <a href="terms.html" class="px-10 py-5 bg-white text-slate-900 rounded-xl font-semibold text-lg hover:bg-slate-100 transition transform hover:-translate-y-1">
+                View Terms of Service
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer id="footer" class="bg-slate-900 text-slate-400 py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
+            <div class="col-span-2 md:col-span-1">
+                <div class="flex items-center space-x-2 mb-4">
+                    <div class="w-8 h-8 bg-gradient-to-br from-blue-600 to-green-500 rounded-lg flex items-center justify-center">
+                        <i class="fa-solid fa-message text-white text-sm"></i>
+                    </div>
+                    <span class="text-lg font-bold text-white">DualConnect</span>
+                </div>
+                <p class="text-sm leading-relaxed">
+                    Flexible messaging platforms for businesses targeting China and global markets.
+                </p>
+            </div>
+            
+            <div>
+                <h4 class="text-white font-semibold mb-4">Platforms</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white transition">China Platform</a></li>
+                    <li><a href="#" class="hover:text-white transition">WhatsApp Platform</a></li>
+                    <li><a href="#" class="hover:text-white transition">Pricing</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="text-white font-semibold mb-4">Company</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white transition">About Us</a></li>
+                    <li><a href="#" class="hover:text-white transition">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="text-white font-semibold mb-4">Legal</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="privacy.html" class="hover:text-white transition">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="hover:text-white transition">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-slate-800 pt-8 flex flex-col sm:flex-row justify-between items-center">
+            <p class="text-sm mb-4 sm:mb-0">© 2024 DualConnect. All rights reserved.</p>
+            <div class="flex space-x-6">
+                <a href="#" class="hover:text-white transition"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

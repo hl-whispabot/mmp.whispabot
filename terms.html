@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17852720289"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'AW-17852720289');
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script> window.FontAwesomeConfig = { autoReplaceSvg: 'nest'};</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>::-webkit-scrollbar { display: none;}</style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'china-blue': '#2563eb',
+                        'whatsapp-green': '#25d366',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        
+        const nav = document.getElementById("myTopnav");
+
+        window.myFunction = function (event) {
+            event.stopPropagation();
+            nav.classList.toggle("hidden");
+        };
+
+        document.addEventListener("click", function (event) {
+            const isClickInsideNav = nav.contains(event.target);
+            const isHamburger = event.target.closest("button");
+
+            if (!nav.classList.contains("hidden") && !isClickInsideNav && !isHamburger) {
+            nav.classList.add("hidden");
+            }
+        });
+
+        });
+    </script>
+</head>
+<body class="font-sans antialiased bg-gradient-to-br from-slate-50 to-blue-50">
+
+<header id="header" class="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-md border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16 sm:h-20 relative">
+            <div class="flex items-center space-x-3">
+                <!-- Hamburger (mobile only) -->
+                <button class="lg:hidden text-2xl" onclick="myFunction(event)">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!-- Logo -->
+                <a href="index.html"><img src="images/whispabot.png" class="w-32 sm:w-40 lg:w-56"/></a>
+            </div>
+            
+            <nav id="myTopnav" class="absolute top-full mt-2 left-0 bg-white shadow-md hidden flex flex-col items-center space-y-4 py-4 
+                lg:static lg:flex lg:flex-row lg:space-y-0 lg:space-x-8 lg:shadow-none lg:items-center
+                w-full lg:w-auto 
+                ">
+                <a href="index.html" class="text-slate-600 hover:text-slate-900 font-medium transition">Home</a>
+                <a href="platforms.html" class="text-slate-600 hover:text-slate-900 font-medium transition">Platforms</a>
+                <a href="pricing.html" class="text-slate-600 hover:text-slate-900 font-medium transition">Pricing</a>
+                <a href="about.html" class="text-slate-600 hover:text-slate-900 font-medium transition">About</a>
+                <a href="contact.html" class="text-slate-600 hover:text-slate-900 font-medium transition">Contact</a>
+            </nav>
+            
+            <div class="flex items-center space-x-2">
+                <a href="https://mmp.whispabot.com" target="_blank"><button class="px-5 py-3 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-xl font-semibold text-sm hover:shadow-2xl transition transform hover:-translate-y-1">
+                <i class="fa-brands fa-whatsapp lg:mr-"></i>
+                <!-- Text: HIDDEN on mobile, visible on desktop -->
+                <span class="hidden lg:inline">
+                    Start WhatsApp
+                </span>
+            </button></a>
+            </div>
+        </div>
+        </div>
+    </div>
+</header>
+
+<section id="terms-hero" class="relative pt-24 sm:pt-32 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8 h-[500px] flex items-center">
+    <div class="max-w-7xl mx-auto w-full text-center">
+        <div class="inline-flex items-center space-x-2 px-4 py-2 bg-slate-200 rounded-full mb-6">
+            <i class="fa-solid fa-file-contract text-slate-700 text-sm"></i>
+            <span class="text-sm font-medium text-slate-700">Legal Agreement</span>
+        </div>
+        
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-900 leading-tight mb-6 max-w-4xl mx-auto">
+            Terms of Service
+        </h1>
+        
+        <p class="text-base sm:text-lg lg:text-xl text-slate-600 mb-6 max-w-3xl mx-auto">
+            Please read these terms carefully before using Whispabot's messaging platforms and services.
+        </p>
+        
+        <div class="flex items-center justify-center space-x-2 text-sm text-slate-500">
+            <i class="fa-regular fa-calendar"></i>
+            <span>Effective Date: 1st March 2026</span>
+        </div>
+    </div>
+</section>
+
+<section id="terms-content" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-4xl mx-auto">
+        
+        <div id="section-acceptance" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-handshake text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Acceptance of Terms</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <p class="text-slate-700 leading-relaxed mb-4">
+                    These Terms of Service ("Terms") constitute a legally binding agreement between you ("User," "you," or "your") and Whispabot ("Company," "we," "us," or "our") governing your access to and use of our messaging platforms, services, software, and related offerings (collectively, the "Services").
+                </p>
+                <p class="text-slate-700 leading-relaxed mb-4">
+                    By creating an account, accessing our platforms, or using any of our Services, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, you must not access or use our Services.
+                </p>
+                <div class="bg-amber-50 border-l-4 border-amber-600 p-6 rounded-r-lg my-6">
+                    <div class="flex items-start space-x-3">
+                        <i class="fa-solid fa-exclamation-triangle text-amber-600 text-xl mt-1"></i>
+                        <div>
+                            <h4 class="font-semibold text-slate-900 mb-2">Important Legal Notice</h4>
+                            <p class="text-sm text-slate-700">These Terms include provisions that limit our liability and require individual arbitration for dispute resolution. Please review these sections carefully.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-slate-700 leading-relaxed mb-4">
+                    You represent and warrant that: (a) you are at least 18 years of age or the age of majority in your jurisdiction; (b) you have the legal capacity to enter into binding contracts; (c) if representing an organization, you have the authority to bind that organization to these Terms; and (d) your use of the Services complies with all applicable laws and regulations.
+                </p>
+            </div>
+        </div>
+
+        <div id="section-services" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-server text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Description of Services</h2>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="bg-slate-50 rounded-xl p-6">
+                    <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                        <i class="fa-solid fa-globe text-blue-600 mr-2"></i>
+                        Platform Overview
+                    </h3>
+                    <p class="text-slate-700 leading-relaxed mb-3">
+                        Whispabot provides cloud-based messaging platforms that enable businesses to communicate with customers through WeCom/WeChat (China Platform) and WhatsApp (Global Platform). Our Services include:
+                    </p>
+                    <ul class="space-y-2 text-slate-700">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Message sending and receiving capabilities across supported platforms</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Contact management and audience segmentation tools</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Campaign creation, automation and scheduling features</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>Analytics, reporting and performance tracking</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                            <span>API access and integration capabilities</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl p-6">
+                    <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                        <i class="fa-solid fa-wrench text-purple-600 mr-2"></i>
+                        Service Modifications
+                    </h3>
+                    <p class="text-slate-700 leading-relaxed mb-3">
+                        We reserve the right to modify, suspend, or discontinue any aspect of the Services at any time, with or without notice. This includes:
+                    </p>
+                    <ul class="space-y-2 text-slate-700">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-angle-right text-purple-600 mr-2 mt-1"></i>
+                            <span>Adding, removing, or changing features and functionality</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-angle-right text-purple-600 mr-2 mt-1"></i>
+                            <span>Implementing scheduled maintenance or emergency updates</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-angle-right text-purple-600 mr-2 mt-1"></i>
+                            <span>Adjusting usage limits, quotas, or rate restrictions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-angle-right text-purple-600 mr-2 mt-1"></i>
+                            <span>Discontinuing support for third-party integrations</span>
+                        </li>
+                    </ul>
+                    <p class="text-slate-700 leading-relaxed mt-3 text-sm">
+                        We will make reasonable efforts to notify you of material changes that may adversely affect your use of the Services.
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl p-6">
+                    <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                        <i class="fa-solid fa-link text-orange-600 mr-2"></i>
+                        Third-Party Dependencies
+                    </h3>
+                    <p class="text-slate-700 leading-relaxed">
+                        Our Services integrate with third-party platforms including WeCom and WhatsApp. Your use of these integrations is subject to the respective platform's terms of service, policies, and guidelines. We are not responsible for changes, limitations, or disruptions to third-party services that may affect your use of our Services.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-account" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-purple-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-user-circle text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Account Terms and Responsibilities</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-user-plus text-blue-600 mr-2"></i>
+                            Account Creation
+                        </h4>
+                        <ul class="space-y-2 text-sm text-slate-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Provide accurate, complete and current information</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Maintain and promptly update account information</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Use a valid email address you regularly access</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>One account per user or organization</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-lock text-green-600 mr-2"></i>
+                            Account Security
+                        </h4>
+                        <ul class="space-y-2 text-sm text-slate-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-green-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Maintain confidentiality of login credentials</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-green-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Use strong, unique passwords</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-green-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Enable two-factor authentication when available</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-green-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Immediately notify us of unauthorized access</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg my-6">
+                    <div class="flex items-start space-x-3">
+                        <i class="fa-solid fa-ban text-red-600 text-xl mt-1"></i>
+                        <div>
+                            <h4 class="font-semibold text-slate-900 mb-2">Account Restrictions</h4>
+                            <p class="text-sm text-slate-700 mb-2">You may not:</p>
+                            <ul class="text-sm text-slate-700 space-y-1">
+                                <li>• Share your account credentials with third parties</li>
+                                <li>• Create accounts using automated means or false information</li>
+                                <li>• Transfer, sell, or assign your account to others</li>
+                                <li>• Create multiple accounts to circumvent usage limits</li>
+                                <li>• Impersonate another person or entity</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="text-slate-700 leading-relaxed">
+                    You are solely responsible for all activities that occur under your account, regardless of whether such activities were authorized by you. We are not liable for any loss or damage arising from unauthorized account access due to your failure to maintain account security.
+                </p>
+            </div>
+        </div>
+
+        <div id="section-usage" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-orange-600 to-orange-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-shield-halved text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Acceptable Use Policy</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <p class="text-slate-700 leading-relaxed mb-6">
+                    You agree to use the Services only for lawful purposes and in accordance with these Terms. You are prohibited from engaging in the following activities:
+                </p>
+                
+                <div class="space-y-4">
+                    <div class="border-l-4 border-red-600 bg-slate-50 p-6 rounded-r-xl">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-ban text-red-600 mr-2"></i>
+                            Prohibited Content
+                        </h4>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-2">
+                            You may not send, transmit, or facilitate the distribution of:
+                        </p>
+                        <ul class="space-y-1 text-sm text-slate-700">
+                            <li>• Illegal, fraudulent, or deceptive content</li>
+                            <li>• Spam, unsolicited commercial messages, or bulk messaging without consent</li>
+                            <li>• Malware, viruses, or harmful code</li>
+                            <li>• Content that infringes intellectual property rights</li>
+                            <li>• Hate speech, harassment, or discriminatory content</li>
+                            <li>• Adult content, pornography, or sexually explicit material</li>
+                            <li>• Content promoting violence, terrorism, or illegal activities</li>
+                            <li>• False or misleading information intended to deceive</li>
+                        </ul>
+                    </div>
+
+                    <div class="border-l-4 border-orange-600 bg-slate-50 p-6 rounded-r-xl">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-code text-orange-600 mr-2"></i>
+                            Technical Restrictions
+                        </h4>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-2">
+                            You may not:
+                        </p>
+                        <ul class="space-y-1 text-sm text-slate-700">
+                            <li>• Attempt to gain unauthorized access to our systems or networks</li>
+                            <li>• Reverse engineer, decompile, or disassemble our software</li>
+                            <li>• Circumvent usage limits, rate restrictions, or security measures</li>
+                            <li>• Use automated systems (bots, scrapers) without authorization</li>
+                            <li>• Interfere with or disrupt the Services or servers</li>
+                            <li>• Probe, scan, or test system vulnerabilities</li>
+                            <li>• Remove or obscure proprietary notices or labels</li>
+                        </ul>
+                    </div>
+
+                    <div class="border-l-4 border-purple-600 bg-slate-50 p-6 rounded-r-xl">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-scale-balanced text-purple-600 mr-2"></i>
+                            Compliance Requirements
+                        </h4>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-2">
+                            You must:
+                        </p>
+                        <ul class="space-y-1 text-sm text-slate-700">
+                            <li>• Comply with all applicable laws, regulations, and industry standards</li>
+                            <li>• Obtain proper consent before sending marketing messages</li>
+                            <li>• Honor opt-out requests and unsubscribe preferences</li>
+                            <li>• Follow GDPR and other relevant regulations</li>
+                            <li>• Comply with WeCom/WeChat and WhatsApp platform policies</li>
+                            <li>• Maintain records demonstrating compliance when required</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-blue-50 rounded-xl p-6 mt-6">
+                    <h4 class="font-bold text-slate-900 mb-3">Enforcement</h4>
+                    <p class="text-sm text-slate-700">
+                        We reserve the right to investigate suspected violations of these Terms. If we determine that you have violated this Acceptable Use Policy, we may suspend or terminate your account, remove offending content and take legal action as appropriate. We may also report violations to law enforcement authorities.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-payment" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-teal-600 to-teal-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-credit-card text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Payment Terms and Billing</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <div class="space-y-6">
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-dollar-sign text-green-600 mr-2"></i>
+                            Subscription Fees
+                        </h3>
+                        <p class="text-slate-700 leading-relaxed mb-3">
+                            Access to certain Services requires payment of subscription fees as specified in your selected plan. By subscribing:
+                        </p>
+                        <ul class="space-y-2 text-slate-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                                <span>You authorize us to charge your payment method for the applicable fees</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                                <span>Fees are charged in advance on a recurring basis (monthly or annually)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                                <span>All fees are non-refundable except as required by law</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-green-600 mr-2 mt-1"></i>
+                                <span>Subscriptions automatically renew unless cancelled before renewal</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-chart-line text-blue-600 mr-2"></i>
+                            Usage-Based Charges
+                        </h3>
+                        <p class="text-slate-700 leading-relaxed mb-3">
+                            Some Services may incur additional charges based on usage:
+                        </p>
+                        <ul class="space-y-2 text-slate-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-blue-600 mr-2 mt-1"></i>
+                                <span>Message volume exceeding plan limits</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-blue-600 mr-2 mt-1"></i>
+                                <span>Premium features or add-ons</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-blue-600 mr-2 mt-1"></i>
+                                <span>Additional user seats or accounts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-blue-600 mr-2 mt-1"></i>
+                                <span>API calls beyond included quotas</span>
+                            </li>
+                        </ul>
+                        <p class="text-slate-700 text-sm mt-3">
+                            Usage-based charges are calculated monthly and billed in arrears. You can monitor your usage through your account dashboard.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-arrow-up text-purple-600 mr-2"></i>
+                            Price Changes
+                        </h3>
+                        <p class="text-slate-700 leading-relaxed">
+                            We reserve the right to modify our pricing at any time. Price increases for existing subscriptions will be communicated at least 30 days in advance and will take effect at your next renewal. Continued use of the Services after price changes constitutes acceptance of the new pricing.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-exclamation-circle text-red-600 mr-2"></i>
+                            Payment Failures
+                        </h3>
+                        <p class="text-slate-700 leading-relaxed mb-3">
+                            If payment fails:
+                        </p>
+                        <ul class="space-y-2 text-slate-700 text-sm">
+                            <li>• We will attempt to process payment multiple times</li>
+                            <li>• You will receive email notifications of failed payments</li>
+                            <li>• Your account may be suspended after 7 days of non-payment</li>
+                            <li>• Your account and data may be deleted after 30 days of non-payment</li>
+                            <li>• You remain liable for all unpaid fees plus collection costs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-amber-50 border-l-4 border-amber-600 p-6 rounded-r-lg mt-6">
+                    <div class="flex items-start space-x-3">
+                        <i class="fa-solid fa-info-circle text-amber-600 text-xl mt-1"></i>
+                        <div>
+                            <h4 class="font-semibold text-slate-900 mb-2">Taxes</h4>
+                            <p class="text-sm text-slate-700">All fees are exclusive of applicable taxes, duties, or similar governmental assessments. You are responsible for paying all such taxes except those based on our net income. If we are required to collect or pay taxes, they will be invoiced to you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-intellectual" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-indigo-600 to-indigo-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-copyright text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Intellectual Property Rights</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-building text-blue-600 mr-2"></i>
+                            Our Rights
+                        </h4>
+                        <p class="text-sm text-slate-700 mb-3">
+                            We retain all rights, title, and interest in:
+                        </p>
+                        <ul class="space-y-2 text-sm text-slate-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>The Services, software, and technology</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Whispabot trademarks and branding</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Documentation and materials</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Aggregated, anonymized usage data</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-user text-green-600 mr-2"></i>
+                            Your Rights
+                        </h4>
+                        <p class="text-sm text-slate-700 mb-3">
+                            You retain ownership of:
+                        </p>
+                        <ul class="space-y-2 text-sm text-slate-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-green-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Your content, messages and data</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-green-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Your trademarks and branding</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-green-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Contact lists and customer data</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-check text-green-600 mr-2 mt-1 flex-shrink-0"></i>
+                                <span>Campaign materials you create</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl p-6">
+                    <h4 class="font-bold text-slate-900 mb-3">License Grant</h4>
+                    <p class="text-slate-700 text-sm leading-relaxed mb-3">
+                        <strong>To You:</strong> Subject to these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to access and use the Services for your internal business purposes during your subscription period.
+                    </p>
+                    <p class="text-slate-700 text-sm leading-relaxed">
+                        <strong>To Us:</strong> You grant us a worldwide, non-exclusive license to use, store, process, and transmit your content solely to provide the Services and as described in our Privacy Policy. This includes the right to use anonymized, aggregated data for service improvement and analytics.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-liability" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-scale-unbalanced text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Disclaimers and Limitation of Liability</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <div class="bg-amber-50 border-2 border-amber-600 rounded-xl p-6 mb-6">
+                    <div class="flex items-start space-x-3">
+                        <i class="fa-solid fa-exclamation-triangle text-amber-600 text-2xl mt-1"></i>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-3 text-lg">IMPORTANT LEGAL NOTICE</h4>
+                            <p class="text-sm text-slate-700 font-semibold">
+                                PLEASE READ THIS SECTION CAREFULLY AS IT LIMITS OUR LIABILITY TO YOU.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-circle-exclamation text-red-600 mr-2"></i>
+                            Service Disclaimer
+                        </h3>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-3 uppercase font-semibold">
+                            THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+                        </p>
+                        <p class="text-slate-700 text-sm leading-relaxed">
+                            We disclaim all warranties, including but not limited to: warranties of merchantability, fitness for a particular purpose, non-infringement, accuracy, reliability, or availability. We do not warrant that the Services will be uninterrupted, error-free, or secure, or that defects will be corrected.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-ban text-orange-600 mr-2"></i>
+                            Limitation of Liability
+                        </h3>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-3 uppercase font-semibold">
+                            TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, REVENUE, DATA, OR USE.
+                        </p>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-3">
+                            Our total liability for all claims arising from or relating to these Terms or the Services shall not exceed $1.
+                        </p>
+                        <p class="text-slate-700 text-sm leading-relaxed">
+                            These limitations apply regardless of the legal theory (contract, tort, negligence, strict liability, or otherwise) and even if we have been advised of the possibility of such damages.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-shield-halved text-blue-600 mr-2"></i>
+                            Indemnification
+                        </h3>
+                        <p class="text-slate-700 text-sm leading-relaxed">
+                            You agree to indemnify, defend, and hold harmless Whispabot, its affiliates, officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses (including legal fees) arising from: (a) your use of the Services; (b) your violation of these Terms; (c) your violation of any rights of third parties; or (d) your content or data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-termination" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-slate-600 to-slate-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-power-off text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Termination</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-slate-50 rounded-xl p-6 border border-slate-200">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-user-xmark text-blue-600 mr-2"></i>
+                            Termination by You
+                        </h4>
+                        <p class="text-sm text-slate-700 mb-3">
+                            You may terminate your account at any time:
+                        </p>
+                        <ul class="space-y-2 text-sm text-slate-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-blue-600 mr-2 mt-1"></i>
+                                <span>Through your account settings</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-blue-600 mr-2 mt-1"></i>
+                                <span>By contacting support</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-blue-600 mr-2 mt-1"></i>
+                                <span>Cancellation takes effect at end of billing period</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-blue-600 mr-2 mt-1"></i>
+                                <span>No refunds for partial periods</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6 border border-slate-200">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fa-solid fa-building-circle-xmark text-red-600 mr-2"></i>
+                            Termination by Us
+                        </h4>
+                        <p class="text-sm text-slate-700 mb-3">
+                            We may suspend or terminate your account:
+                        </p>
+                        <ul class="space-y-2 text-sm text-slate-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-red-600 mr-2 mt-1"></i>
+                                <span>For violation of these Terms</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-red-600 mr-2 mt-1"></i>
+                                <span>For non-payment of fees</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-red-600 mr-2 mt-1"></i>
+                                <span>For fraudulent or illegal activity</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-angle-right text-red-600 mr-2 mt-1"></i>
+                                <span>With or without notice, at our discretion</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl p-6">
+                    <h4 class="font-bold text-slate-900 mb-3">Effect of Termination</h4>
+                    <p class="text-slate-700 text-sm leading-relaxed mb-3">
+                        Upon termination of your account:
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-700">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-circle text-slate-400 text-xs mr-2 mt-1.5"></i>
+                            <span>Your access to the Services will immediately cease</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-circle text-slate-400 text-xs mr-2 mt-1.5"></i>
+                            <span>We may delete your account data after 30 days</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-circle text-slate-400 text-xs mr-2 mt-1.5"></i>
+                            <span>You remain liable for all fees incurred prior to termination</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-circle text-slate-400 text-xs mr-2 mt-1.5"></i>
+                            <span>Sections of these Terms that by their nature should survive will continue to apply</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mt-6">
+                    <div class="flex items-start space-x-3">
+                        <i class="fa-solid fa-download text-blue-600 text-xl mt-1"></i>
+                        <div>
+                            <h4 class="font-semibold text-slate-900 mb-2">Data Export</h4>
+                            <p class="text-sm text-slate-700">We recommend exporting your data regularly. Upon termination, you have 30 days to export your data before it may be permanently deleted. We are not responsible for data loss after account termination.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-general" class="mb-16 scroll-mt-32">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-list-check text-white text-xl"></i>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">General Provisions</h2>
+            </div>
+            
+            <div class="prose prose-slate max-w-none">
+                <div class="space-y-4">
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h4 class="font-bold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-gavel text-blue-600 mr-2"></i>
+                            Governing Law
+                        </h4>
+                        <p class="text-sm text-slate-700">
+                            These Terms shall be governed by and construed in accordance with the laws of Malaysia, without regard to its conflict of law provisions. Any legal action or proceeding shall be brought exclusively in the courts located in Malaysia.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h4 class="font-bold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-handshake-angle text-green-600 mr-2"></i>
+                            Dispute Resolution
+                        </h4>
+                        <p class="text-sm text-slate-700">
+                            Any dispute arising from these Terms shall first be resolved through good faith negotiation. If negotiation fails within 30 days, disputes shall be resolved through binding arbitration in accordance with the rules of Asian International Arbitration Centre (AIAC) in Malaysia, except where prohibited by law.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h4 class="font-bold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-pen-to-square text-purple-600 mr-2"></i>
+                            Changes to Terms
+                        </h4>
+                        <p class="text-sm text-slate-700">
+                            We may modify these Terms at any time. Material changes will be notified via prominent notice on our platform at least 30 days before taking effect. Your continued use after changes become effective constitutes acceptance of the modified Terms.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h4 class="font-bold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-shuffle text-orange-600 mr-2"></i>
+                            Assignment
+                        </h4>
+                        <p class="text-sm text-slate-700">
+                            You may not assign or transfer these Terms or your account without our prior written consent. We may assign these Terms without restriction. Any attempted assignment in violation of this section is void.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h4 class="font-bold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-circle-check text-teal-600 mr-2"></i>
+                            Entire Agreement
+                        </h4>
+                        <p class="text-sm text-slate-700">
+                            These Terms, together with our Privacy Policy and any additional terms for specific Services, constitute the entire agreement between you and Whispabot regarding the Services and supersede all prior agreements and understandings.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-6">
+                        <h4 class="font-bold text-slate-900 mb-2 flex items-center">
+                            <i class="fa-solid fa-scissors text-red-600 mr-2"></i>
+                            Severability
+                        </h4>
+                        <p class="text-sm text-slate-700">
+                            If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary so that these Terms shall otherwise remain in full force and effect.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-contact-terms" class="mb-8">
+            <div class="bg-gradient-to-r from-slate-900 to-blue-900 rounded-2xl p-8 text-white">
+                <div class="flex items-start space-x-4">
+                    <i class="fa-solid fa-envelope text-blue-400 text-2xl mt-1"></i>
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">Questions About These Terms?</h3>
+                        <p class="text-slate-200 mb-4 leading-relaxed">
+                            If you have questions or concerns about these Terms of Service, please contact our team. We're here to help clarify any provisions and ensure you understand your rights and obligations.
+                        </p>
+                        <div class="space-y-2 text-sm">
+                            <div class="flex items-center space-x-2">
+                                <i class="fa-solid fa-envelope text-slate-300"></i>
+                                <span class="text-slate-300">support@whispabot.com</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fa-solid fa-location-dot text-slate-300"></i>
+                                <span class="text-slate-300">22-1 Jalan Metro Perdana Barat 2, Taman Usahawan Kepong, Kuala Lumpur, Malaysia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="terms-cta" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 to-blue-900">
+    <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
+            Ready to Get Started?
+        </h2>
+        <p class="text-lg sm:text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
+            By creating an account, you agree to these Terms of Service. Join thousands of businesses using Whispabot to reach their customers.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://mmp.whispabot.com" class="px-10 py-5 bg-gradient-to-r from-blue-600 to-green-500 text-white rounded-xl font-semibold text-lg hover:shadow-2xl transition transform hover:-translate-y-1">
+                Start WhatsApp Campaign
+                <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+            <a href="privacy.html" class="px-10 py-5 bg-white text-slate-900 rounded-xl font-semibold text-lg hover:bg-slate-100 transition transform hover:-translate-y-1">
+                View Privacy Policy
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer id="footer" class="bg-slate-900 text-slate-400 py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+        
+        <div class="flex flex-col md:flex-row mb-10">
+    
+            <!-- Left: Logo -->
+            <div class="max-w-sm">
+                <a href="index.html">
+                    <img src="images/whispabot_white.png" width="250px" class="mb-4" />
+                </a>
+                <p class="text-sm leading-relaxed">
+                    Flexible messaging platforms for businesses targeting China and global markets.
+                </p>
+            </div>
+            
+            <!-- Right: Menu (starts from middle) -->
+            <div class="md:ml-auto md:w-[55%] mt-10 md:mt-0">
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-12 text-left">
+                    
+                    <div>
+                        <h4 class="text-white font-semibold mb-4">Platforms</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li><a href="chinese.html" class="hover:text-white transition">China Platform</a></li>
+                            <li><a href="whatsapp.html" class="hover:text-white transition">WhatsApp Platform</a></li>
+                            <li><a href="pricing.html" class="hover:text-white transition">Pricing</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-white font-semibold mb-4">Company</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li><a href="about.html" class="hover:text-white transition">About</a></li>
+                            <li><a href="contact.html" class="hover:text-white transition">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-white font-semibold mb-4">Legal</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li><a href="privacy.html" class="hover:text-white transition">Privacy Policy</a></li>
+                            <li><a href="terms.html" class="hover:text-white transition">Terms of Service</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bottom -->
+        <div class="border-t border-slate-800 pt-8 flex flex-col sm:flex-row justify-between items-center">
+            <p class="text-sm mb-4 sm:mb-0">© 2026 whispabot. All rights reserved.</p>
+            <div class="flex space-x-6"></div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

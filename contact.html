@@ -161,15 +161,14 @@
             <div id="contact-form-container" class="bg-white rounded-2xl border border-slate-200 shadow-lg p-8">
                 <div class="mb-8">
                     <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
-                        Request a Consultation
+                        Contact Our Team
                     </h2>
                     <p class="text-slate-600">
                         Fill out the form below and our team will reach out to you soon.
                     </p>
                 </div>
                 
-                <form action="https://api.web3forms.com/submit" method="POST" id="sales-contact-form" class="space-y-6">
-                    <input type="hidden" name="access_key" value="4c928e2b-be6f-4f65-845d-328b7d3d54b3">
+                <form id="sales-contact-form" class="space-y-6">
                     <div class="grid md:grid-cols-2 gap-6">
                         <div>
                             <label class="block text-sm font-semibold text-slate-900 mb-2">
@@ -213,15 +212,15 @@
                         </label>
                         <div class="space-y-3">
                             <label class="flex items-center space-x-3 cursor-pointer">
-                                <input name="china_platform" type="checkbox" class="w-5 h-5 text-blue-600 border-slate-300 rounded focus:ring-blue-500">
+                                <input name="platform_china" type="checkbox" class="w-5 h-5 text-blue-600 border-slate-300 rounded focus:ring-blue-500">
                                 <span class="text-slate-700">China Platform (XHS + WeChat)</span>
                             </label>
                             <label class="flex items-center space-x-3 cursor-pointer">
-                                <input name="whatsapp_platform" type="checkbox" class="w-5 h-5 text-green-600 border-slate-300 rounded focus:ring-green-500">
+                                <input name="platform_whatsapp" type="checkbox" class="w-5 h-5 text-green-600 border-slate-300 rounded focus:ring-green-500">
                                 <span class="text-slate-700">WhatsApp Platform</span>
                             </label>
                             <label class="flex items-center space-x-3 cursor-pointer">
-                                <input name="both_platforms" type="checkbox" class="w-5 h-5 text-purple-600 border-slate-300 rounded focus:ring-purple-500">
+                                <input name="platform_both" type="checkbox" class="w-5 h-5 text-purple-600 border-slate-300 rounded focus:ring-purple-500">
                                 <span class="text-slate-700">Both Platforms</span>
                             </label>
                         </div>
@@ -392,7 +391,7 @@
                     <div>
                         <h4 class="text-white font-semibold mb-4">Company</h4>
                         <ul class="space-y-2 text-sm">
-                            <li><a href="about.html" class="hover:text-white transition">About Us</a></li>
+                            <li><a href="about.html" class="hover:text-white transition">About</a></li>
                             <li><a href="contact.html" class="hover:text-white transition">Contact</a></li>
                         </ul>
                     </div>
@@ -421,7 +420,7 @@
     window.addEventListener('load', function() {
         const form = document.getElementById('sales-contact-form');
         
-        form.addEventListener('submit', function(e) {
+        form.addEventListener('submit', async(e) => {
             e.preventDefault();
             
             const submitButton = form.querySelector('button[type="submit"]');
@@ -429,20 +428,39 @@
             
             submitButton.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i>Submitting...';
             submitButton.disabled = true;
-            
-            setTimeout(function() {
+
+            const formData = new FormData(form);
+            formData.append("access_key", "4c928e2b-be6f-4f65-845d-328b7d3d54b3");
+
+            try {
+                const response = await fetch("https://api.web3forms.com/submit", {
+                    method: "POST",
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    alert("Success! Your message has been sent.");
+                    form.reset();
+                } else {
+                    alert("Error: " + data.message);
+                }
+
+            } catch (error) {
+                alert("Something went wrong. Please try again.");
+            } finally {
                 submitButton.innerHTML = '<i class="fa-solid fa-check mr-2"></i>Request Sent!';
                 submitButton.classList.remove('from-blue-600', 'to-green-600');
                 submitButton.classList.add('bg-green-600');
                 
                 setTimeout(function() {
-                    form.reset();
                     submitButton.innerHTML = originalText;
                     submitButton.disabled = false;
                     submitButton.classList.add('from-blue-600', 'to-green-600');
                     submitButton.classList.remove('bg-green-600');
-                }, 3000);
-            }, 1500);
+                }, 1000);
+            }
         });
     });
 </script>
